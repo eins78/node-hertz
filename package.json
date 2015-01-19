@@ -1,6 +1,6 @@
 {
   "name": "hertz",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "miliseconds from frequency (1000/n)",
   "main": "hertz.js",
   "scripts": {
