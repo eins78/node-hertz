@@ -20,3 +20,7 @@ hz(1, function (err, wait) {
   setTimeout(fn, wait);
 });
 ```
+
+##### Build Status
+
+[![Build Status](https://travis-ci.org/eins78/node-hertz.svg)](https://travis-ci.org/eins78/node-hertz)
