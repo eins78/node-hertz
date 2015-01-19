@@ -8,15 +8,15 @@ use this:
 
 ```js
 var hz = require('hertz');
-setTimeout(fn, hz(freq));
+setTimeout(fn, hz(1));
 ```
-#### async
+### async
 
 async version, because `node`/`io.js`:
 
 ```js
 var hz = require('hertz/async');
-hz(freq, function (err, wait) {
+hz(1, function (err, wait) {
   setTimeout(fn, wait);
 });
 ```
