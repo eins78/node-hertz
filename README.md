@@ -7,3 +7,13 @@ use this:
 var hz = require('hertz');
 setTimeout(fn, hz(freq));
 ```
+#### async
+
+async version, because `node`/`io.js`:
+
+```js
+var hz = require('hertz/async');
+hz(freq, function (err, wait) {
+  setTimeout(fn, wait);
+});
+```

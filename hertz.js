@@ -1,3 +1,3 @@
-module.exports = function hertz(frequency) {
+module.exports = function hertzSync(frequency) {
   return (1000 / frequency)
 }
