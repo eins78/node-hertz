@@ -1,0 +1,17 @@
+{
+  "name": "hertz",
+  "version": "1.0.0",
+  "description": "miliseconds from frequency (1000/n)",
+  "main": "hertz.js",
+  "scripts": {
+    "test": "test $(node -p 'require(\"./hertz.js\")(5)') = 200"
+  },
+  "keywords": [
+    "hertz",
+    "miliseconds",
+    "frequency"
+  ],
+  "repository": "https://github.com/eins78/node-hertz.git",
+  "author": "Max F. Albrecht <1@178.is>",
+  "license": "MIT"
+}
