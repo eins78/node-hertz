@@ -1,0 +1,10 @@
+executions:
+  Test:
+    default: true
+    description: "runs `npm test`"
+    specification:
+      tasks:
+        - name: "npm test"
+          scripts:
+            main:
+              body: "npm test"
