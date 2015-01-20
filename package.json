@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test-sync && npm run test-async",
     "test-sync": "test $(node -p 'require(\"./hertz.js\")(5)') = 200",
-    "test-async": "test $(node -e 'require(\"hertz/async\")(20,function(e,r){console.log(r)})') = 50"
+    "test-async": "test $(node -e 'require(\"./async.js\")(20,function(e,r){console.log(r)})') = 50"
   },
   "keywords": [
     "hertz",
