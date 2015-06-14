@@ -1,10 +1,11 @@
-executions:
-  Test:
-    default: true
-    description: "runs `npm test`"
-    specification:
+# 🍏 Cider-CI 🍎 test config 🍏
+
+jobs:
+  'test':
+    description: "run the tests"
+    context:
       tasks:
-        - name: "npm test"
+        'npm-test':
           scripts:
             main:
               body: "npm test"
