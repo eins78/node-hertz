@@ -1,11 +1,26 @@
-# 🍏 Cider-CI 🍎 test config 🍏
+# 🍏 Cider-CI 🍎 javascript project example dotfile 🍏
 
-jobs:
+jobs: # (jobs are the thing that gets a badge)
+  # each key is a different job:
   'test':
-    description: "run the tests"
+    description: "defaults js tests"
+    start-on: # trigger this job when any branch is updated:
+      - type: branch.updated
+        include-match: .*
+
     context:
-      tasks:
+      task-defaults: # set defaults for all tasks in job:
+        traits:
+          nodejs: true # requires an executor with 'nodejs' trait
+
+      tasks: # (tasks are the things that can be executed in parallel)
+        # each key is a task for this job:
         'npm-test':
+          description: "run the tests with npm"
           scripts:
-            main:
+            # each key is a script for this task:
+            'dependencies':
+              body: "npm install"
+            'npm-test':
+              start-when: [ script: dependencies ]
               body: "npm test"
