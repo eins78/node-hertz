@@ -23,6 +23,6 @@ hz(1, function (err, wait) {
 
 ##### Build Status
 
-[![travis ci](https://travis-ci.org/eins78/node-hertz.svg)](https://travis-ci.org/eins78/node-hertz)
+Travis: [![travis ci](https://travis-ci.org/eins78/node-hertz.svg)](https://travis-ci.org/eins78/node-hertz)
 
-[![cider ci](http://ci2.zhdk.ch/cider-ci/ui/public/node-hertz/master/Test/summary.svg?respond_width_200)](http://ci2.zhdk.ch/cider-ci/ui/public/node-hertz/cider/test/summary.html)
+[![cider ci](http://cider.zrh.kiste.li/cider-ci/ui/public/node-hertz/master/test/summary.svg?respond_width_200)](http://cider.zrh.kiste.li/cider-ci/ui/public/node-hertz/master/test/summary.html)
