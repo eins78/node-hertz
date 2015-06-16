@@ -1,6 +1,6 @@
 # *require*("**hertz**")
 
-![semver=1.1.1](https://img.shields.io/badge/semver-1.1.1-blue.svg)
+[!![semver: 1.1.1](https://img.shields.io/badge/semver-1.1.1-blue.svg)](http://semver.org)
 
 [![fanart](http://upload.wikimedia.org/wikipedia/commons/e/ea/Wave_frequency.gif)](https://en.wikipedia.org/wiki/Hertz)
 
