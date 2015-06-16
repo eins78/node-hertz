@@ -1,3 +1,6 @@
+version: '1.1.1'
+---
+
 # *require*("**hertz**")
 
 [![fanart](http://upload.wikimedia.org/wikipedia/commons/e/ea/Wave_frequency.gif)](https://en.wikipedia.org/wiki/Hertz)
