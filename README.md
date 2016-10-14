@@ -12,7 +12,7 @@ setTimeout(fn, hz(1));
 ```
 ### async
 
-async version, because `node`/`io.js`:
+async version, because `node`:
 
 ```js
 var hz = require('hertz/async');
